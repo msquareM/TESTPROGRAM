@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 //create end point
-app.get("/", (request, response) => {
+app.get("/testApi", (request, response) => {
   //send 'Hi, from Node server' to client
   response.send("Hi, from Node server");
 });
